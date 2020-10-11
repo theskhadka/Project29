@@ -100,9 +100,3 @@ function mouseDragged(){
 function mouseReleased(){
   sling1.fly();
 }
-
-function keyPressed(){
-  if (keyCode === 32) {
-      sling1.attach(polygon);
-  }
-}
