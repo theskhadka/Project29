@@ -88,6 +88,7 @@ function draw() {
   block81.display();
   block91.display();
   sling1.display();
+  fill(yellow);
   rect(polygon.position.x-20, polygon.position.y-10, 50, 50);
 }
 
